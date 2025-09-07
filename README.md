@@ -34,6 +34,11 @@
 | [스위치 (10개)](https://ko.aliexpress.com/item/1005001291287576.html?spm=a2g0o.order_list.order_list_main.40.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 7,710원 |
 | [SMD LED (500개)](https://ko.aliexpress.com/item/1005007863635868.html?spm=a2g0o.order_list.order_list_main.45.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 4,000원 |
 | [RP2040 Pro Micro 16M (10개)](https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.order_list.order_list_main.50.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 35,600원 |
+| [왼쪽 엄지 PCB (2.1)](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster) | 약 $4.1 / 5장 |
+| [오른쪽 엄지 PCB (2.01)](https://github.com/Bastardkb/Charybdis-PCB-thumbs) | 약 $4 / 5장 |
+| [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | 약 $11.2 / 10장 |
+| [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | 약 $23.68 / 5장 |
+| [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | - |
 
 ---
 
