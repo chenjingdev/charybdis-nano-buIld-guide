@@ -39,11 +39,11 @@
 | MJ310 볼 베어링 7.5mm (1pcs) | 2,360원 | 1 | 3 |  |
 | Perix303 트랙볼 볼 (Purple Glossy) | 28,650원 | 1 | 1 |  |
 | [RP2040 Pro Micro 16M (10개)](https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.order_list.order_list_main.50.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 35,600원 | 10 | 2 |  |
-| [왼쪽 엄지 PCB (2.1)](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster) | 약 $4.1 | 5장 | 1 |  |
-| [오른쪽 엄지 PCB (2.01)](https://github.com/Bastardkb/Charybdis-PCB-thumbs) | 약 $4.0 | 5장 | 1 |  |
-| [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | 약 $11.2 | 10장 | 2 |  |
-| [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | 약 $23.68 | 5장 | 1 |  |
-| [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | - | - | 2 |  |
+| [왼쪽 엄지 PCB (2.1)](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster) | USD $4.10 | 5장 | 1 |  |
+| [오른쪽 엄지 PCB (2.01)](https://github.com/Bastardkb/Charybdis-PCB-thumbs) | USD $4.00 | 5장 | 1 |  |
+| [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | USD $11.20 | 10장 | 2 |  |
+| [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | USD $23.68 | 5장 | 1 |  |
+| [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | USD $4.00 | 5장 | 2 |  |
 | 합계(원) |  |  |  | - |
 | 합계(USD) |  |  |  | - |
 
@@ -57,11 +57,11 @@ PCB 출력 공통 옵션: 거버 파일 업로드 후 색상만 변경. 그 외 
 
 - 두께: 전부 0.8mm, 검은색. 옵션 2개만 변경.
 - 왼쪽(2.1 버전): [TBK-Mini-PCB-thumb-cluster](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster)  
-  예상가: 약 $4.1 / 5장
+  JLCPCB 청구 기준: $4.10 / 5장
 - 오른쪽(2.01 버전): [Charybdis-PCB-thumbs](https://github.com/Bastardkb/Charybdis-PCB-thumbs)  
-  예상가: 약 $4 / 5장
+  JLCPCB 청구 기준: $4.00 / 5장
 - 메인(1.3 버전): [Skeletyl-PCB-plate](https://github.com/Bastardkb/Skeletyl-PCB-plate)  
-  예상가: 약 $11.2 / 10장
+  JLCPCB 청구 기준: $11.20 / 10장
 - 특이사항: 5장/10장 가격차가 크지 않음. 부품 확정 후 한 번에 여러 장 출력해 두고두고 사용하는 것을 권장.
 
 ### 트랙볼 PCB
@@ -72,7 +72,7 @@ PCB 출력 공통 옵션: 거버 파일 업로드 후 색상만 변경. 그 외 
   - bom.csv에 마우스 센서(U1001)와 커넥터(J1001) 부품 목록이 있으나, 실제 PCB 뽑을 때는 필요 없으므로 업로드 전 삭제(미삭제 시 오류).  
   - position.csv는 파일명을 cpl.csv로 변경 후 업로드해야 오류가 나지 않음.  
   - 출력 옵션은 거버 파일 업로드 후 색상만 변경.  
-  - 가격: 약 $23.68 / 5장. BOM 실장 포함된 제품 구성이라 상대적으로 고가.
+- 가격: $23.68 / 5장 (JLCPCB 청구서). BOM 실장 포함된 제품 구성이라 상대적으로 고가.
 
 ### C 포트 홀더(컨트롤보드 연결용)
 
