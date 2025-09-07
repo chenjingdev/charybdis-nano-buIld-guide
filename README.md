@@ -35,7 +35,7 @@
 | [스위치 (10개)](https://ko.aliexpress.com/item/1005001291287576.html?spm=a2g0o.order_list.order_list_main.40.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 7,710원 | 10 | 40 |  |
 | [SK6812 MINI-E RGB LED](https://ko.aliexpress.com/item/1005007863635868.html?spm=a2g0o.order_list.order_list_main.45.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 4,000원 | - | - |  |
 | SMD 택트 스위치 4x4x1.5 (10pcs) | 256원 | 10 | - |  |
-| SMD 저항 330Ω 1206 (pack) | 529원 | - | - |  |
+| [SMD 저항 330Ω 1206 (100pcs)](https://ko.aliexpress.com/item/32863600668.html?spm=a2g0o.order_list.order_list_main.107.3fc0140fp7p9Pl&gatewayAdapt=glo2kor) | 529원 | 100 | - |  |
 | MJ310 볼 베어링 7.5mm (1pcs) | 2,360원 | 1 | 3 |  |
 | Perix303 트랙볼 볼 (Purple Glossy) | 28,650원 | 1 | 1 |  |
 | [RP2040 Pro Micro 16M (10개)](https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.order_list.order_list_main.50.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 35,600원 | 10 | 2 |  |
@@ -44,8 +44,13 @@
 | [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | USD $11.20 | 10장 | 2 |  |
 | [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | USD $23.68 | 5장 | 1 |  |
 | [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | USD $4.00 | 5장 | 2 |  |
-| 합계(원) |  |  |  | - |
-| 합계(USD) |  |  |  | - |
+ 
+### 가격 합계
+
+| 통화 | 합계 |
+|---|---:|
+| KRW | - |
+| USD | - |
 
 ---
 
