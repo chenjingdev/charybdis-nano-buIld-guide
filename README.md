@@ -39,7 +39,6 @@
 | [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | 약 $11.2 | 10장 |  |  |
 | [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | 약 $23.68 | 5장 |  |  |
 | [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | - | - |  |  |
-
 | 합계(원) |  |  |  | - |
 | 합계(USD) |  |  |  | - |
 
