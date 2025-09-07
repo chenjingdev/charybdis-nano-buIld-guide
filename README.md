@@ -19,26 +19,26 @@
 
 | 부품명 | 가격(패키지) | 패키지 수량 | 1대 필요 수량 | 1대 비용 |
 |---|---:|---:|---:|---:|
-| [나사 (규격 선택)](https://ko.aliexpress.com/item/1005006815826506.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%201503%21KRW%20978%21%21KRW%20829%21%21%21%4021015b7d17542960956188740e0739%2112000038395985085%21ct%21KR%213017032214%21%215%210&gatewayAdapt=glo2kor) | - | - |  |  |
-| [인서트 (4~5mm 권장)](https://ko.aliexpress.com/item/1005006472962973.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%2022360%21KRW%2020650%21%21KRW%2020237%21%21%21%4021015b7d17542960956188740e0739%2112000037324316050%21ct%21KR%213017032214%21%211%210&gatewayAdapt=glo2kor) | - | - |  |  |
-| [베어링](https://ko.aliexpress.com/item/1005003066404497.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%202171%21KRW%201953%21%21KRW%201933%21%21%21%4021015b7d17542960956188740e0739%2112000023742247065%21ct%21KR%213017032214%21%213%210&gatewayAdapt=glo2kor) | - | - |  |  |
-| [SMD 다이오드 (1N4148 SOD-123)](https://ko.aliexpress.com/item/1005003194674618.html?spm=a2g0o.productlist.main.3.96101Dr01Dr0ow&algo_pvid=b5cfc52d-412c-4784-94c4-21f35d6dd5e2&algo_exp_id=b5cfc52d-412c-4784-94c4-21f35d6dd5e2-2&pdp_ext_f=%7B%22order%22%3A%22199%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21KRW%21513%21513%21%21%210.36%210.36%21%40212e520d17543139952171048eba45%2112000024602962919%21sea%21KR%213017032214%21X&curPageLogUid=RfdoxE136ZaO&utparam-url=scene%3Asearch%7Cquery_from%3A) | 예: 513원 | - |  |  |
-| [케페시터 50V (60개)](https://ko.aliexpress.com/item/1005007350273364.html?spm=a2g0o.order_detail.order_detail_item.3.43675ccdiuI7qY&gatewayAdapt=glo2kor) | 4,157원 | 60 |  |  |
-| [리본 케이블 (네이버 스토어)](https://smartstore.naver.com/spec/products/5320955211?NaPm=ct%3Dmf9oxihc%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3Dnull%7Chk%3D50c081cdf807c9175ef8d4ae90eb14b9ea825efe) | - | - |  |  |
-| [스페이서 M4 OD6mm 5mm (300pcs)](https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor) | 17,500원 | 300 |  |  |
-| [스페이서 M3 OD5mm 5mm (500pcs)](https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor) | 19,380원 | 500 |  |  |
-| [오디오 커넥터 (100pcs)](https://ko.aliexpress.com/item/1005003111662179.html?spm=a2g0o.order_list.order_list_main.15.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 8,260원 | 100 |  |  |
-| [M3 나사 8mm (500pcs)](https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.25.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 10,352원 | 500 |  |  |
-| [M4 나사 8mm (500pcs)](https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.30.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 12,512원 | 500 |  |  |
-| [PMW3360 센서/렌즈 (5개)](https://ko.aliexpress.com/item/4000904265601.html?spm=a2g0o.order_list.order_list_main.35.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 44,364원 | 5 |  |  |
-| [스위치 (10개)](https://ko.aliexpress.com/item/1005001291287576.html?spm=a2g0o.order_list.order_list_main.40.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 7,710원 | 10 |  |  |
-| [SMD LED (500개)](https://ko.aliexpress.com/item/1005007863635868.html?spm=a2g0o.order_list.order_list_main.45.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 4,000원 | 500 |  |  |
-| [RP2040 Pro Micro 16M (10개)](https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.order_list.order_list_main.50.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 35,600원 | 10 |  |  |
-| [왼쪽 엄지 PCB (2.1)](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster) | 약 $4.1 | 5장 |  |  |
-| [오른쪽 엄지 PCB (2.01)](https://github.com/Bastardkb/Charybdis-PCB-thumbs) | 약 $4.0 | 5장 |  |  |
-| [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | 약 $11.2 | 10장 |  |  |
-| [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | 약 $23.68 | 5장 |  |  |
-| [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | - | - |  |  |
+| [나사 (규격 선택)](https://ko.aliexpress.com/item/1005006815826506.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%201503%21KRW%20978%21%21KRW%20829%21%21%21%4021015b7d17542960956188740e0739%2112000038395985085%21ct%21KR%213017032214%21%215%210&gatewayAdapt=glo2kor) | - | - | - |  |
+| [인서트 (4~5mm 권장)](https://ko.aliexpress.com/item/1005006472962973.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%2022360%21KRW%2020650%21%21KRW%2020237%21%21%21%4021015b7d17542960956188740e0739%2112000037324316050%21ct%21KR%213017032214%21%211%210&gatewayAdapt=glo2kor) | - | - | - |  |
+| [베어링](https://ko.aliexpress.com/item/1005003066404497.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%202171%21KRW%201953%21%21KRW%201933%21%21%21%4021015b7d17542960956188740e0739%2112000023742247065%21ct%21KR%213017032214%21%213%210&gatewayAdapt=glo2kor) | - | - | 3 |  |
+| [SMD 다이오드 (1N4148 SOD-123)](https://ko.aliexpress.com/item/1005003194674618.html?spm=a2g0o.productlist.main.3.96101Dr01Dr0ow&algo_pvid=b5cfc52d-412c-4784-94c4-21f35d6dd5e2&algo_exp_id=b5cfc52d-412c-4784-94c4-21f35d6dd5e2-2&pdp_ext_f=%7B%22order%22%3A%22199%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21KRW%21513%21513%21%21%210.36%210.36%21%40212e520d17543139952171048eba45%2112000024602962919%21sea%21KR%213017032214%21X&curPageLogUid=RfdoxE136ZaO&utparam-url=scene%3Asearch%7Cquery_from%3A) | 예: 513원 | - | 40 |  |
+| [케페시터 50V (60개)](https://ko.aliexpress.com/item/1005007350273364.html?spm=a2g0o.order_detail.order_detail_item.3.43675ccdiuI7qY&gatewayAdapt=glo2kor) | 4,157원 | 60 | - |  |
+| [리본 케이블 (네이버 스토어)](https://smartstore.naver.com/spec/products/5320955211?NaPm=ct%3Dmf9oxihc%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3Dnull%7Chk%3D50c081cdf807c9175ef8d4ae90eb14b9ea825efe) | - | - | 1 |  |
+| [스페이서 M4 OD6mm 5mm (300pcs)](https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor) | 17,500원 | 300 | 8 |  |
+| [스페이서 M3 OD5mm 5mm (500pcs)](https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor) | 19,380원 | 500 | 8 |  |
+| [오디오 커넥터 (100pcs)](https://ko.aliexpress.com/item/1005003111662179.html?spm=a2g0o.order_list.order_list_main.15.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 8,260원 | 100 | 2 |  |
+| [M3 나사 8mm (500pcs)](https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.25.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 10,352원 | 500 | 20 |  |
+| [M4 나사 8mm (500pcs)](https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.30.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 12,512원 | 500 | 12 |  |
+| [PMW3360 센서/렌즈 (5개)](https://ko.aliexpress.com/item/4000904265601.html?spm=a2g0o.order_list.order_list_main.35.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 44,364원 | 5 | 1 |  |
+| [스위치 (10개)](https://ko.aliexpress.com/item/1005001291287576.html?spm=a2g0o.order_list.order_list_main.40.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 7,710원 | 10 | 40 |  |
+| [SMD LED (500개)](https://ko.aliexpress.com/item/1005007863635868.html?spm=a2g0o.order_list.order_list_main.45.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 4,000원 | 500 | 0 |  |
+| [RP2040 Pro Micro 16M (10개)](https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.order_list.order_list_main.50.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 35,600원 | 10 | 2 |  |
+| [왼쪽 엄지 PCB (2.1)](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster) | 약 $4.1 | 5장 | 1 |  |
+| [오른쪽 엄지 PCB (2.01)](https://github.com/Bastardkb/Charybdis-PCB-thumbs) | 약 $4.0 | 5장 | 1 |  |
+| [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | 약 $11.2 | 10장 | 2 |  |
+| [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | 약 $23.68 | 5장 | 1 |  |
+| [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | - | - | 2 |  |
 | 합계(원) |  |  |  | - |
 | 합계(USD) |  |  |  | - |
 
