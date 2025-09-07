@@ -1,0 +1,205 @@
+# Charybdis(카리브디스) 빌드/제작 가이드
+
+이 레포에 흩어져 있던 가이드를 하나의 문서로 통합했습니다. 아래 목차에서 필요한 섹션을 찾아 읽으시면 됩니다. 원본 개별 문서는 그대로 두되, 상단에 본 README로의 안내 링크를 추가했습니다.
+
+## 목차
+- [부품 구매 리스트](#부품-구매-리스트)
+- [PCB 설계도 및 출력](#pcb-설계도-및-출력)
+  - [엄지/메인 PCB](#엄지메인-pcb)
+  - [트랙볼 PCB](#트랙볼-pcb)
+  - [C 포트 홀더(컨트롤보드 연결용)](#c-포트-홀더컨트롤보드-연결용)
+  - [컨트롤보드(알리에서 구매로 대체)](#컨트롤보드알리에서-구매로-대체)
+- [3D 프린팅 가이드](#3d-프린팅-가이드)
+
+---
+
+## 부품 구매 리스트
+
+아래는 제작에 필요한 주요 부품들과 참고 링크입니다. 가격/재고는 변동될 수 있으니 구매 전 다시 확인하세요.
+
+1. 나사  
+   - 나사: https://ko.aliexpress.com/item/1005006815826506.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%201503%21KRW%20978%21%21KRW%20829%21%21%21%4021015b7d17542960956188740e0739%2112000038395985085%21ct%21KR%213017032214%21%215%210&gatewayAdapt=glo2kor  
+   - 인서트: https://ko.aliexpress.com/item/1005006472962973.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%2022360%21KRW%2020650%21%21KRW%2020237%21%21%21%4021015b7d17542960956188740e0739%2112000037324316050%21ct%21KR%213017032214%21%211%210&gatewayAdapt=glo2kor  
+   - 비고: 인서트의 특정 규격 링크는 미발견(제보 환영). 나사는 규격 선택 가능. Torx M4 길이 8mm, Torx M3 길이 8mm, 호환 인서트 4~5mm 권장(±1mm 무관). 플레이트/스탠드 두께를 감안해 여유 3mm 선택.
+
+2. 베어링  
+   - https://ko.aliexpress.com/item/1005003066404497.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%202171%21KRW%201953%21%21KRW%201933%21%21%21%4021015b7d17542960956188740e0739%2112000023742247065%21ct%21KR%213017032214%21%213%210&gatewayAdapt=glo2kor  
+   - 비고: BTU 모드는 성능은 좋으나 고가/해외배송으로 비추. 공식 문서의 대체 부품 기준.
+
+3. SMD 다이오드 (1N4148 SOD-123)  
+   - https://ko.aliexpress.com/item/1005003194674618.html?spm=a2g0o.productlist.main.3.96101Dr01Dr0ow&algo_pvid=b5cfc52d-412c-4784-94c4-21f35d6dd5e2&algo_exp_id=b5cfc52d-412c-4784-94c4-21f35d6dd5e2-2&pdp_ext_f=%7B%22order%22%3A%22199%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21KRW%21513%21513%21%21%210.36%210.36%21%40212e520d17543139952171048eba45%2112000024602962919%21sea%21KR%213017032214%21X&curPageLogUid=RfdoxE136ZaO&utparam-url=scene%3Asearch%7Cquery_from%3A  
+   - 비고: 최저가 링크 아님(참고용).
+
+4. 케페시터 50V (예: 60개 4,157원)  
+   - https://ko.aliexpress.com/item/1005007350273364.html?spm=a2g0o.order_detail.order_detail_item.3.43675ccdiuI7qY&gatewayAdapt=glo2kor
+
+5. 리본 케이블  
+
+6. M4 OD6mm 5mm (예: 300pcs 17,500원)  
+   - https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor
+
+7. M3 OD5mm 5mm (예: 500pcs 19,380원)  
+   - https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor
+
+8. 오디오 커넥터 (예: 100pcs 8,260원)  
+   - https://ko.aliexpress.com/item/1005003111662179.html?spm=a2g0o.order_list.order_list_main.15.21ef140fA7MsY6&gatewayAdapt=glo2kor
+
+9. M3 나사 8mm (예: 500pcs 10,352원)  
+   - https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.25.21ef140fA7MsY6&gatewayAdapt=glo2kor
+
+10. M4 나사 8mm (예: 500pcs 12,512원)  
+   - https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.30.21ef140fA7MsY6&gatewayAdapt=glo2kor
+
+11. PMW3360 센서/렌즈 (예: 5개 44,364원)  
+   - https://ko.aliexpress.com/item/4000904265601.html?spm=a2g0o.order_list.order_list_main.35.21ef140fA7MsY6&gatewayAdapt=glo2kor
+
+12. 스위치 (예: 10개 7,710원)  
+   - https://ko.aliexpress.com/item/1005001291287576.html?spm=a2g0o.order_list.order_list_main.40.21ef140fA7MsY6&gatewayAdapt=glo2kor
+
+13. SMD LED (예: 500개 4,000원)  
+   - https://ko.aliexpress.com/item/1005007863635868.html?spm=a2g0o.order_list.order_list_main.45.21ef140fA7MsY6&gatewayAdapt=glo2kor
+
+14. RP2040 Pro Micro 16M (예: 10개 35,600원)  
+   - https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.order_list.order_list_main.50.21ef140fA7MsY6&gatewayAdapt=glo2kor
+
+---
+
+## PCB 설계도 및 출력
+
+PCB 출력 공통 옵션: 거버 파일 업로드 후 색상만 변경. 그 외 옵션은 건드리지 않는 것을 권장합니다.
+
+### 엄지/메인 PCB
+
+- 두께: 전부 0.8mm, 검은색. 옵션 2개만 변경.
+- 왼쪽(2.1 버전): https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster  
+  예상가: 약 $4.1 / 5장
+- 오른쪽(2.01 버전): https://github.com/Bastardkb/Charybdis-PCB-thumbs  
+  예상가: 약 $4 / 5장
+- 메인(1.3 버전): https://github.com/Bastardkb/Skeletyl-PCB-plate  
+  예상가: 약 $11.2 / 10장
+- 특이사항: 5장/10장 가격차가 크지 않음. 부품 확정 후 한 번에 여러 장 출력해 두고두고 사용하는 것을 권장.
+
+### 트랙볼 PCB
+
+- 설계도: https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases  
+- 카리브디스 공식 홈페이지 제공 설계도 latest 버전.
+- 주의사항:  
+  - bom.csv에 마우스 센서(U1001)와 커넥터(J1001) 부품 목록이 있으나, 실제 PCB 뽑을 때는 필요 없으므로 업로드 전 삭제(미삭제 시 오류).  
+  - position.csv는 파일명을 cpl.csv로 변경 후 업로드해야 오류가 나지 않음.  
+  - 출력 옵션은 거버 파일 업로드 후 색상만 변경.  
+  - 가격: 약 $23.68 / 5장. BOM 실장 포함된 제품 구성이라 상대적으로 고가.
+
+### C 포트 홀더(컨트롤보드 연결용)
+
+- 알리 링크: https://ko.aliexpress.com/item/1005001304569553.html?spm=a2g0s.9042311.0.0.27424c4dDwgcp7&gatewayAdapt=glo2kor
+- 4x4x1.5 버튼 구매
+- 설계도(Elite-C holder): https://github.com/Bastardkb/Elite-C-holder/releases  
+  현재 레포 내 기준 버전: 2.1  
+- 출력 옵션: 거버 파일 업로드 후 색상만 변경.
+
+### 컨트롤보드(알리에서 구매로 대체)
+
+- Splinky(공식 설계도, latest): https://github.com/Bastardkb/Splinky/releases/tag/bk3.2  
+- 비고: JLCPCB 생산 시 일부 부품 부재로 생산이 막힐 수 있음. 호환 부품을 직접 치환할 수 있으면 위 설계도로 진행 가능하나, 비용/수고 대비 알리 완제품 구매가 가성비가 좋음.
+- 알리 링크: https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%203560%21KRW%203560%21%21KRW%203560%21%21%21%4021015b7d17542960956188740e0739%2112000035965729680%21ct%21KR%213017032214%21%213%210&gatewayAdapt=glo2kor
+
+---
+
+## 3D 프린팅 가이드
+
+아래 내용은 Bastard Keyboards 문서를 기반으로 한 Dactyl 계열(Charybdis 포함) 3D 프린팅 가이드의 요약/번역본입니다. 프린터/필라멘트/환경에 따라 결과가 달라질 수 있으니 테스트 프린트를 권장합니다.
+
+# Dactyl 키보드 3D 프린팅 가이드
+
+## 목차
+- [소개](#소개)
+- [재료 선택](#재료-선택)
+- [프린트 설정](#프린트-설정)
+  - [온도](#온도)
+  - [Prusa 프린터용 설정](#prusa-프린터용-설정)
+  - [기타 프린터용 설정](#기타-프린터용-설정)
+- [베드 접착](#베드-접착)
+- [부품 방향](#부품-방향)
+
+## 소개
+
+이 페이지에서는 훌륭한 Dactyl 프린트를 얻는 방법에 대해 자세히 설명합니다. 이 정보는 Bastard Keyboard 디자인에 적용되므로 다른 모델의 경우 결과가 다를 수 있습니다. <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+우리의 키보드는 복잡한 모델입니다. 프린팅을 덜 어렵게 만들기 위해 최선을 다했지만, 서포트 분리, 표면 품질, 베드 접착을 테스트하기 위해 미리 몇 번의 테스트 프린트를 해보는 것을 강력히 권장합니다. <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+## 재료 선택
+
+어떤 플라스틱이 가장 잘 작동하는지 확인하기 위해 다양한 플라스틱으로 테스트 프린트를 해보세요. PLA가 가장 프린트하기 쉽습니다. 패턴이 있는 플라스틱이 가장 잘 작동합니다 - 예: Prusament Galaxy 또는 Fillamentum Extrafill. <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+## 프린트 설정
+
+### 온도
+
+낮은 온도에서 프린팅하면 플라스틱이 광택보다는 무광택이 됩니다. PLA의 경우 플라스틱에 따라 195~210°C를 권장합니다. <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+### Prusa 프린터용 설정
+
+Prusa 프린터를 사용하는 경우 다음 설정으로 프린트하세요: <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+- 레이어 높이: 0.15mm 구조적 프로파일
+- 서포트: 빌드 플레이트에만
+- 서포트 타입: 그리드 (중요!)
+- 노즐 온도: 
+  - MK3, MK3.5, MK4: 200°C
+  - MK4S: 210°C
+
+### 기타 프린터용 설정
+
+다음 설정은 BambuLabs A1 Mini에서 테스트되었으며 잘 작동했습니다. Bambu Studio의 0.16mm 고품질 프로파일에서 작업되었습니다. <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+#### 필라멘트 설정:
+
+| 설명 | 값 |
+|------|-----|
+| 첫 번째 레이어 냉각 없음 | - |
+| 최소 팬 속도 임계값 | 65% 팬 속도, 75 |
+| 최대 팬 속도 임계값 | 65% 팬 속도, 75 |
+| 최소 팬 속도 | 35% |
+| 최대 팬 속도 | 35% |
+| 최소 온도 | 215°C |
+| 최대 온도 | 215°C |
+
+#### 프린터 설정:
+
+| 설명 | 값 |
+|------|-----|
+| Z 기둥 | 2 |
+| 서포트 밀도 | 15% |
+| 서포트 재료 | 1% |
+| 서포트 타입 | 격자 |
+
+#### 슬라이서 설정:
+
+| 설명 | 값 |
+|------|-----|
+| 프린트 속도 | 140 mm/s |
+| 가속 | 2000 |
+| 벽 외부 속도 | 30 mm/s |
+| 서포트 속도 | 120 mm/s |
+| 서포트 가속 | 2000 |
+| 필라멘트 주변 거리 | 6 mm |
+
+## 베드 접착
+
+프린트가 뒤틀리면 최종 빌드 중에 보이거나(플레이트와 텐트의 경우) 설치를 완전히 방해할 수도 있습니다! <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+프린트가 붙지 않는 경우 다음 팁을 참고하세요: <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+- 5~6mm의 브림 추가
+- 접착제 사용(종이 접착제 또는 물로 희석한 목공용 접착제)
+- 첫 번째 레이어에서 부품 팬 비활성화
+- 베드 레벨링 확인
+
+## 부품 방향
+
+모든 키보드 케이스는 사용될 방향과 동일한 방향으로 프린트해야 합니다. <mcreference link="https://docs.bastardkb.com/help/dactyl_print.html" index="0">0</mcreference>
+
+---
+
+본 README는 참고용으로 제공됩니다. 링크/가격/버전은 수시로 변경될 수 있으며, 최신 정보는 각 링크의 공식 문서를 확인하세요.
+
