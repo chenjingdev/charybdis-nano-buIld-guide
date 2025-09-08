@@ -8,7 +8,7 @@
   - [엄지/메인 PCB](#엄지메인-pcb)
   - [트랙볼 PCB](#트랙볼-pcb)
   - [C 포트 홀더(컨트롤보드 연결용)](#c-포트-홀더컨트롤보드-연결용)
-  - [컨트롤보드(알리에서 구매로 대체)](#컨트롤보드알리에서-구매로-대체)
+  - [컨트롤보드(설계 참고)](#컨트롤보드설계-참고)
  
 
 ---
@@ -29,6 +29,13 @@
 
 - Merchandise: $46.98, Shipping: $11.74, Discount: -$9.00, Grand Total: $49.72
 
+#### 출력 두께(주문 기준)
+- Main(Y9): 0.8mm
+- Left(Y12): 0.8mm
+- Right(Y10): 0.8mm
+- Adapter(Y4): 1.6mm
+- Sensor PCBA(Y3): 1.6mm
+
 ### AliExpress 주문 (CSV 반영)
 
 | 부품명 | 옵션 명 | 1패키지당 부품수 | 패키지수량 | 총부품수 | 패키지가격 | 구매가격 |
@@ -44,11 +51,9 @@
 | [M2 M3 M4 M5 M6 M8 Brass Heat Insert Nut Double Twill Knurled Hot Melt Injection Embed Thread Inserts Nuts For 3d Printer](https://www.aliexpress.com/item/1005008666672949.html) | Length 5mm, M4 (OD6mm) 30pcs | 30 | 10 | 300 | ₩1,752 | ₩17,520 |
 | [M2 M3 M4 M5 M6 M8 Brass Heat Insert Nut Double Twill Knurled Hot Melt Injection Embed Thread Inserts Nuts For 3d Printer](https://www.aliexpress.com/item/1005008666672949.html) | Length 5mm, M3 (OD5mm) 50pcs | 50 | 10 | 500 | ₩1,938 | ₩19,380 |
 | [PMW3360DM-T2QU 및 LM19-LSI DIP PMW3360 PMW3360DM 센서, 렌즈 LM19 포함, 정품, 로트당 1 개 - AliExpress 502](https://www.aliexpress.com/item/4000904265601.html) | - | 1 | 5 | 5 | ₩9,900 | ₩49,500 |
-| [SMD 픽셀 LED 칩, 개별 주소 지정 가능, 풀 컬러 DC 5V, SK6812 MINI-E RGB (WS2812B 유사), SK6812 3228, 100 개 - AliExpress 36](https://www.aliexpress.com/item/1005007863635868.html) | 100개 × 5 | 100 | 5 | 500 | ₩4,000 | ₩20,000 |
+| [SMD 픽셀 LED 칩, 개별 주소 지정 가능, 풀 컬러 DC 5V, SK6812 MINI-E RGB (WS2812B 유사), SK6812 3228, 100 개 - AliExpress 36](https://www.aliexpress.com/item/1005007863635868.html) | - | 100 | 5 | 500 | ₩4,000 | ₩20,000 |
 | [VEICHU 컨베이어 구성 요소 VCN310/311 스테인레스 스틸 라운드 내구성 황소 휠 전송 베어링 롤러 볼 - AliExpress 13](https://www.aliexpress.com/item/1005003066404497.html) | VCN310, 7.5 | 1 | 15 | 15 | ₩1,953 | ₩29,295 |
 | [Perix303 트랙볼, 탈착식 마우스 트랙볼 570, 에르고 드로잉 마우스 볼, 사용자 정의 컴퓨터 게이머 액세서리 선물, 34mm - AliExpress 7](https://www.aliexpress.com/item/1005008358261130.html) | purpel Glossy | 1 | 1 | 1 | ₩28,650 | ₩28,650 |
-
-참고: AliExpress는 옵션(변형) 선택을 URL 파라미터로 고정하려면 각 옵션 조합의 SKU ID가 필요합니다. 원하시면 각 품목별 원하는 옵션의 `sku_id`를 알려주세요. `?sku_id=...` 형태로 링크에 반영해 바로 해당 옵션이 선택되도록 설정해 드립니다.
 
 ---
 
@@ -58,7 +63,7 @@ PCB 출력 공통 옵션: 거버 파일 업로드 후 색상만 변경. 그 외 
 
 ### 엄지/메인 PCB
 
-- 두께: 전부 0.8mm, 검은색. 옵션 2개만 변경.
+- 두께(주문 기준): 메인/엄지 0.8mm, 어댑터/센서 1.6mm. 색상: 검정. 기타 설정은 기본값에서 필수 옵션 2개만 변경.
 - 왼쪽(2.1 버전): [TBK-Mini-PCB-thumb-cluster](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster)  
   JLCPCB 청구 기준: $4.10 / 5장
 - 오른쪽(2.01 버전): [Charybdis-PCB-thumbs](https://github.com/Bastardkb/Charybdis-PCB-thumbs)  
@@ -79,17 +84,14 @@ PCB 출력 공통 옵션: 거버 파일 업로드 후 색상만 변경. 그 외 
 
 ### C 포트 홀더(컨트롤보드 연결용)
 
-- 알리 링크: [AliExpress 제품 페이지](https://ko.aliexpress.com/item/1005001304569553.html?spm=a2g0s.9042311.0.0.27424c4dDwgcp7&gatewayAdapt=glo2kor)
-- 4x4x1.5 버튼 구매
 - 설계도(Elite-C holder): [Releases](https://github.com/Bastardkb/Elite-C-holder/releases)  
   현재 레포 내 기준 버전: 2.1  
 - 출력 옵션: 거버 파일 업로드 후 색상만 변경.
 
-### 컨트롤보드(알리에서 구매로 대체)
+### 컨트롤보드(설계 참고)(알리구매로대체함)
 
 - Splinky(공식 설계도, latest): [bk3.2 Releases](https://github.com/Bastardkb/Splinky/releases/tag/bk3.2)  
-- 비고: JLCPCB 생산 시 일부 부품 부재로 생산이 막힐 수 있음. 호환 부품을 직접 치환할 수 있으면 위 설계도로 진행 가능하나, 비용/수고 대비 알리 완제품 구매가 가성비가 좋음.
-- 알리 링크: [RP2040 Pro Micro 16M](https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%203560%21KRW%203560%21%21KRW%203560%21%21%21%4021015b7d17542960956188740e0739%2112000035965729680%21ct%21KR%213017032214%21%213%210&gatewayAdapt=glo2kor)
+- 비고: JLCPCB 생산 시 일부 부품 부재로 생산이 막힐 수 있음(부품 없어서 알리 완제품으로 구매).
 
 ---
 
