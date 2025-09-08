@@ -127,3 +127,12 @@ PCB 출력 공통 옵션: 거버 파일 업로드 후 색상만 변경. 그 외 
 
 
 본 README는 참고용으로 제공됩니다. 링크/가격/버전은 수시로 변경될 수 있으며, 최신 정보는 각 링크의 공식 문서를 확인하세요.
+
+---
+
+### 완성품 사진
+
+![완성품 1](assets/images/final_01.png)
+![완성품 2](assets/images/final_02.png)
+![완성품 3](assets/images/final_03.png)
+![완성품 4](assets/images/final_04.png)
