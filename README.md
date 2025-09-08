@@ -15,42 +15,40 @@
 
 ## 부품 구매 리스트
 
-아래는 제작에 필요한 주요 부품을 표로 정리했습니다. 부품명(링크)을 클릭하면 구매/참고 페이지로 이동합니다. 가격/재고는 변동될 수 있으니 구매 전 다시 확인하세요.
+아래 표는 최근 조사/주문 기준으로 형식을 정리했습니다. 중복 항목은 제거하고, 주문 출처별로 분리했습니다.
 
-| 부품명 | 가격(패키지) | 패키지 수량 | 1대 필요 수량 | 1대 비용 |
-|---|---:|---:|---:|---:|
-| [나사 (규격 선택)](https://ko.aliexpress.com/item/1005006815826506.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%201503%21KRW%20978%21%21KRW%20829%21%21%21%4021015b7d17542960956188740e0739%2112000038395985085%21ct%21KR%213017032214%21%215%210&gatewayAdapt=glo2kor) | - | - | - |  |
-| 히트 인서트 M4 5mm OD6mm (30pcs) | 1,752원 | 30 | - |  |
-| 히트 인서트 M3 5mm OD5mm (50pcs) | 1,938원 | 50 | - |  |
-| [베어링](https://ko.aliexpress.com/item/1005003066404497.html?spm=a2g0o.cart.0.0.5f9c56baA1ySYV&mp=1&pdp_npi=5%40dis%21KRW%21KRW%202171%21KRW%201953%21%21KRW%201933%21%21%21%4021015b7d17542960956188740e0739%2112000023742247065%21ct%21KR%213017032214%21%213%210&gatewayAdapt=glo2kor) | - | - | 3 |  |
-| [SMD 다이오드 (1N4148 SOD-123)](https://ko.aliexpress.com/item/1005003194674618.html?spm=a2g0o.productlist.main.3.96101Dr01Dr0ow&algo_pvid=b5cfc52d-412c-4784-94c4-21f35d6dd5e2&algo_exp_id=b5cfc52d-412c-4784-94c4-21f35d6dd5e2-2&pdp_ext_f=%7B%22order%22%3A%22199%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21KRW%21513%21513%21%21%210.36%210.36%21%40212e520d17543139952171048eba45%2112000024602962919%21sea%21KR%213017032214%21X&curPageLogUid=RfdoxE136ZaO&utparam-url=scene%3Asearch%7Cquery_from%3A) | 예: 513원 | - | 40 |  |
-| [케페시터 50V (60개)](https://ko.aliexpress.com/item/1005007350273364.html?spm=a2g0o.order_detail.order_detail_item.3.43675ccdiuI7qY&gatewayAdapt=glo2kor) | 4,157원 | 60 | - |  |
-| [리본 케이블 (네이버 스토어)](https://smartstore.naver.com/spec/products/5320955211?NaPm=ct%3Dmf9oxihc%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3Dnull%7Chk%3D50c081cdf807c9175ef8d4ae90eb14b9ea825efe) | - | - | 1 |  |
-| [스페이서 M4 OD6mm 5mm (300pcs)](https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor) | 17,500원 | 300 | 8 |  |
-| [스페이서 M3 OD5mm 5mm (500pcs)](https://ko.aliexpress.com/item/1005008666672949.html?spm=a2g0o.order_detail.order_detail_item.3.2bce5ccdzeoPn8&gatewayAdapt=glo2kor) | 19,380원 | 500 | 8 |  |
-| [오디오 커넥터 (100pcs)](https://ko.aliexpress.com/item/1005003111662179.html?spm=a2g0o.order_list.order_list_main.15.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 8,260원 | 100 | 2 |  |
-| [M3 나사 8mm (500pcs)](https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.25.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 10,352원 | 500 | 20 |  |
-| [M4 나사 8mm (500pcs)](https://ko.aliexpress.com/item/1005003205577232.html?spm=a2g0o.order_list.order_list_main.30.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 12,512원 | 500 | 12 |  |
-| [PMW3360 센서/렌즈 (5개)](https://ko.aliexpress.com/item/4000904265601.html?spm=a2g0o.order_list.order_list_main.35.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 44,364원 | 5 | 1 |  |
-| [스위치 (10개)](https://ko.aliexpress.com/item/1005001291287576.html?spm=a2g0o.order_list.order_list_main.40.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 7,710원 | 10 | 40 |  |
-| [SK6812 MINI-E RGB LED](https://ko.aliexpress.com/item/1005007863635868.html?spm=a2g0o.order_list.order_list_main.45.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 4,000원 | - | - |  |
-| SMD 택트 스위치 4x4x1.5 (10pcs) | 256원 | 10 | - |  |
-| [SMD 저항 330Ω 1206 (100pcs)](https://ko.aliexpress.com/item/32863600668.html?spm=a2g0o.order_list.order_list_main.107.3fc0140fp7p9Pl&gatewayAdapt=glo2kor) | 529원 | 100 | - |  |
-| MJ310 볼 베어링 7.5mm (1pcs) | 2,360원 | 1 | 3 |  |
-| Perix303 트랙볼 볼 (Purple Glossy) | 28,650원 | 1 | 1 |  |
-| [RP2040 Pro Micro 16M (10개)](https://ko.aliexpress.com/item/1005005980167753.html?spm=a2g0o.order_list.order_list_main.50.21ef140fA7MsY6&gatewayAdapt=glo2kor) | 35,600원 | 10 | 2 |  |
-| [왼쪽 엄지 PCB (2.1)](https://github.com/Bastardkb/TBK-Mini-PCB-thumb-cluster) | USD $4.10 | 5장 | 1 |  |
-| [오른쪽 엄지 PCB (2.01)](https://github.com/Bastardkb/Charybdis-PCB-thumbs) | USD $4.00 | 5장 | 1 |  |
-| [메인 PCB (1.3)](https://github.com/Bastardkb/Skeletyl-PCB-plate) | USD $11.20 | 10장 | 2 |  |
-| [트랙볼 센서 PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb/releases) | USD $23.68 | 5장 | 1 |  |
-| [C 포트 홀더 PCB](https://github.com/Bastardkb/Elite-C-holder/releases) | USD $4.00 | 5장 | 2 |  |
- 
-### 가격 합계
+### PCB 주문 (JLCPCB 인보이스 기준)
 
-| 통화 | 합계 |
-|---|---:|
-| KRW | - |
-| USD | - |
+| 보드 | 코드 | 수량(장) | 단가(USD) | 금액(USD) |
+|---|---|---:|---:|---:|
+| Adapter (C 포트 홀더) | Y4 | 5 | 0.80 | 4.00 |
+| Right (오른쪽 엄지) | Y10 | 5 | 0.80 | 4.00 |
+| Left (왼쪽 엄지) | Y12 | 5 | 0.82 | 4.10 |
+| Main (메인) | Y9 | 10 | 1.12 | 11.20 |
+| Sensor SMT (트랙볼 센서) | Y3 | 5 | 4.74 | 23.68 |
+
+- Merchandise: $46.98, Shipping: $11.74, Discount: -$9.00, Grand Total: $49.72
+
+### AliExpress 주문 (CSV 반영)
+
+| 부품명 | 옵션 명 | 1패키지당 부품수 | 패키지수량 | 총부품수 | 패키지가격 | 구매가격 |
+|---|---|---:|---:|---:|---:|---:|
+| [TTC Frozen V2 스위치 자동 선형 3 핀 39g 스위치 게임용 기계식 키보드 RGB 키보드 음소거 스위치 AULA F75 AJAZZ AK820 - AliExpress 7](https://www.aliexpress.com/item/1005008909952057.html) | 110 PCS | 110 | 1 | 110 | ₩49,990 | ₩49,990 |
+| [SMD 칩 다층 세라믹 캐패시터, 1206 1UF, 50V, 100V, 200V, 105K, X7R, 10% 3216, 20 개 - AliExpress 502](https://www.aliexpress.com/item/1005007350273364.html) | 1206 1UF 50V | 20 | 3 | 60 | ₩1,546 | ₩1,546 |
+| [100pcs SMD 다이오드 0805 SOD-123 1N5819 1N4007 1N4148 SOD123 SOD-323 1206 1N4148WS 1N5819WS B5819WS SOD323 쇼트키 다이오드 - AliExp](https://www.aliexpress.com/item/1005005707644429.html) | 1N4148W SOD123 | 100 | 3 | 300 | ₩1,988 | ₩1,988 |
+| [10/50/100PCS 3.5mm 잭 여성용 오디오 커넥터 4 핀 DIP 헤드폰 잭 소켓 PJ-320A PJ320A 오디오 인터페이스 오디오 잭 검정색 - AliExpress 13](https://www.aliexpress.com/item/1005003111662179.html) | 100 Pcs | 100 | 1 | 100 | ₩8,260 | ₩8,260 |
+| [마이크로 버튼 택트 스위치 Smd 4pin 3x4x2.5mm - 10pcs Smd 4x4x1.5 3mm 4 4 핀 촉각-Aliexpress](https://www.aliexpress.com/item/1005001291287576.html) | 4X4X1.5 Copper | 10 | 10 | 100 | ₩256 | ₩2,560 |
+| [RP2040 Pro 마이크로 라즈베리 PI PICO 개발 보드 듀얼 코어는 Mciro Python을 지원합니다. - AliExpress 502](https://www.aliexpress.com/item/1005005980167753.html) | RP2040 Pro Micro 16M | 1 | 10 | 10 | ₩3,560 | ₩35,600 |
+| [50pcs M1 M1.2 M1.4 M1.6 M2 M2.5 M3 M3.5 M4 GB819 미니 소형 검정색 탄소강 크로스 필립스 플랫 카운터 싱크 헤드 나사 볼트 - AliExpress 13](https://www.aliexpress.com/item/1005003205577232.html) | M3, 8mm | 50 | 10 | 500 | ₩1,155 | ₩11,550 |
+| [50pcs M1 M1.2 M1.4 M1.6 M2 M2.5 M3 M3.5 M4 GB819 미니 소형 검정색 탄소강 크로스 필립스 플랫 카운터 싱크 헤드 나사 볼트 - AliExpress 13](https://www.aliexpress.com/item/1005003205577232.html) | M4, 8mm | 50 | 10 | 500 | ₩1,396 | ₩13,960 |
+| [M2 M3 M4 M5 M6 M8 Brass Heat Insert Nut Double Twill Knurled Hot Melt Injection Embed Thread Inserts Nuts For 3d Printer](https://www.aliexpress.com/item/1005008666672949.html) | Length 5mm, M4 (OD6mm) 30pcs | 30 | 10 | 300 | ₩1,752 | ₩17,520 |
+| [M2 M3 M4 M5 M6 M8 Brass Heat Insert Nut Double Twill Knurled Hot Melt Injection Embed Thread Inserts Nuts For 3d Printer](https://www.aliexpress.com/item/1005008666672949.html) | Length 5mm, M3 (OD5mm) 50pcs | 50 | 10 | 500 | ₩1,938 | ₩19,380 |
+| [PMW3360DM-T2QU 및 LM19-LSI DIP PMW3360 PMW3360DM 센서, 렌즈 LM19 포함, 정품, 로트당 1 개 - AliExpress 502](https://www.aliexpress.com/item/4000904265601.html) | - | 1 | 5 | 5 | ₩9,900 | ₩49,500 |
+| [SMD 픽셀 LED 칩, 개별 주소 지정 가능, 풀 컬러 DC 5V, SK6812 MINI-E RGB (WS2812B 유사), SK6812 3228, 100 개 - AliExpress 36](https://www.aliexpress.com/item/1005007863635868.html) | 100개 × 5 | 100 | 5 | 500 | ₩4,000 | ₩20,000 |
+| [VEICHU 컨베이어 구성 요소 VCN310/311 스테인레스 스틸 라운드 내구성 황소 휠 전송 베어링 롤러 볼 - AliExpress 13](https://www.aliexpress.com/item/1005003066404497.html) | VCN310, 7.5 | 1 | 15 | 15 | ₩1,953 | ₩29,295 |
+| [Perix303 트랙볼, 탈착식 마우스 트랙볼 570, 에르고 드로잉 마우스 볼, 사용자 정의 컴퓨터 게이머 액세서리 선물, 34mm - AliExpress 7](https://www.aliexpress.com/item/1005008358261130.html) | purpel Glossy | 1 | 1 | 1 | ₩28,650 | ₩28,650 |
+
+참고: AliExpress는 옵션(변형) 선택을 URL 파라미터로 고정하려면 각 옵션 조합의 SKU ID가 필요합니다. 원하시면 각 품목별 원하는 옵션의 `sku_id`를 알려주세요. `?sku_id=...` 형태로 링크에 반영해 바로 해당 옵션이 선택되도록 설정해 드립니다.
 
 ---
 
